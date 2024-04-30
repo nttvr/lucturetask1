@@ -74,7 +74,7 @@ for i in range(n):
 # РЕШЕНИЕ
 
 a, b, c = map(int, input('Введите длины сторон треугольника: ').split())
-if ((a, b, c > 0) and (a + b + c == 180)):
+if (a, b, c > 0)
     if (a == b == c):
         print('Треугольник равносторонний!')
     elif ((a != b != c) and (a != c)):
