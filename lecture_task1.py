@@ -31,7 +31,7 @@ for i in range(n):
 # РЕШЕНИЕ:
 
 a, b, c, d = map(int, input('Введите числа: ').split())
-if (a, b, c, d < 10) and (a <= b) and (c <= d):
+if (a, b, c, d < 10) and (a <= b) and (c <= d) and (a, b, c, d, > 0):
     for i in range(c, d + 1):
         print(end='\t' + str(i))
     print('')
