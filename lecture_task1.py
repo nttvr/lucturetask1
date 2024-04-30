@@ -127,11 +127,11 @@ elif ((color1.lower() == 'красный' and (color2.lower() == 'желтый' 
 elif ((color1.lower() == 'синий' and (color2.lower() == 'желтый' or color2.lower() == 'жёлтый')) or (
         color2.lower() == 'синий' and (color2.lower() == 'желтый' or color2.lower() == 'жёлтый'))):
     print('Получается зеленый!')
-elif ()(color1.lower() == 'красный' and color2.lower() == 'красный'):
+elif (color1.lower() == 'красный' and color2.lower() == 'красный'):
     print('Получается красный!')
-elif ()(color1.lower() == 'синий' and color2.lower() == 'синий'):
+elif (color1.lower() == 'синий' and color2.lower() == 'синий'):
     print('Получается синий!')
-elif ()(color1.lower() == 'желтый' and color2.lower() == 'желтый') or (
+elif (color1.lower() == 'желтый' and color2.lower() == 'желтый') or (
         color1.lower() == 'жёлтый' and color2.lower() == 'жёлтый') or (
         color1.lower() == 'желтый' and color2.lower() == 'жёлтый') or (
         color1.lower() == 'жёлтый' and color2.lower() == 'желтый'):
